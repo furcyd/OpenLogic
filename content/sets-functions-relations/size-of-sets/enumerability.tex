@@ -126,7 +126,7 @@ The functions $f\colon \PosInt \to \PosInt$ and $g \colon \PosInt \to
 \PosInt$ given by
 \begin{align*}
 f(n) & = 2n \text{ and}\\
-g(n) & = 2n+1
+g(n) & = 2n-1
 \end{align*}
 enumerate the even positive integers and the odd positive integers,
 respectively. However, neither function is an enumeration of
@@ -210,7 +210,7 @@ A set $A$ is !!{enumerable} iff it is empty or there is
 !!a{surjective} function $f\colon \Nat \to A$.
 \end{cor}
 
-We discussed above than an list of !!{element}s of a set~$A$ can be
+We discussed above that a list of !!{element}s of a set~$A$ can be
 turned into a list without repetitions. This is also true for
 enumerations, but a bit harder to formulate and prove rigorously. Any
 function $f\colon \PosInt \to A$ must be defined for all $n \in
@@ -251,7 +251,7 @@ either~$\PosInt$ or $\{1, \dots, n\}$ for some~$n \in \PosInt$.
 
 \begin{cor}\ollabel{cor:enum-nat-bij}
 A set $A$ is !!{enumerable} iff it is empty or there is !!a{bijection}
-$f\colon N \to A$ where either $N = \Nat$ or $N = \{0, \dots, n\}$ for
+$f\colon N \to A$ where either $N = \Nat$ or $N = \{0, \dots, n-1\}$ for
 some $n \in \Nat$.
 \end{cor}
 
